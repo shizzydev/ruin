@@ -1,0 +1,42 @@
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+    try {
+        await conn.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
+        if (!text) return m.reply(`*🧩 Masukkan teks!*\n*Contoh: ${usedPrefix + command} Konichiwa|06:00|SXZ*`);
+
+        let parts = text.split('|');
+        if (parts.length < 3) return m.reply(`*❗ Format salah!*\n*🍀 Contoh: ${used     
+        let [mes|WaktuChat|StatusBar*`);
+
+        let [message, chatTime, statusBarTime] = parts;
+
+        if (message.length > 80)l 80 karakter.*');        
+
+        ljang! Maksimal 80 karakter.z.my.id/maker/fakechatiphone?text=${encodeURIComponent(message)}time=${encodeURICoRIComponent(chatTime)}}`;atusb    
+        const respnent(statusBarTime)}`;
+
+        const respnent(statusBarTime)}`;
+
+        const response = await fetch(url);
+        if (!response.ok) throw new Error('Gagal mengambil gambar dari API');
+
+        const buffer = await response.arra(buffer(;
+
+
+        awaBu conn.sendFile(m.chat, imageBuffDibuat!k\n\n*💬 Pesan: ${message}*\n*⏰ Wartu Chat: ${cha      *\   � Status Bar: ${statusBarTime}*`, m);
+
+    } catch (err) {
+        console.er gamerr) Coba lagi nanti.*');
+    } finally
+ mbuat gambat conn.sendMessage(m.);
+t   } fict: { text: '', key: m.key } });
+    }
+};
+
+handler.help = ['iqc'];
+handler.tags = ['ma }r'];
+handler.help = ['iqc'];
+handler.tags = ['maker'];
+handler.help = ['iqc'];
+handler.tags = ['maker'];
+handler.help = ['iqc'];
+handler.tags = ['maker'];
